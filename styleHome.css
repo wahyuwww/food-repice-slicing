@@ -1,9 +1,13 @@
 body {
-  background-color: rgb(155, 29, 29);
-  font-family: 'Assistant', sans-serif;
-  color: #071C4D;
+  background-color: rgb(255, 255, 255);
+  font-family: 'metropolis';
+  color: #222222;
 }
-
+ @font-face /*perintah untuk memanggil font eksternal*/
+{
+    font-family: 'metropolis'; /*memberikan nama bebas untuk font*/
+    src: url('./metropolis.regular.otf');/*memanggil file font eksternalnya di folder nexa*/
+}
 .navbar-brand img {
   max-height: 40px;
 }
@@ -34,29 +38,83 @@ body {
   color: #fff;
 }
 
-header {
-  margin-top: -68px;
-  padding: 180px 0 165px;
-  background-image: url("../images/header-background.jpg");
-  background-size: cover;
+.navbar{
+  background-color: #fff;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
-
-header h1,
-header p {
+.icon-cart{
+  margin-right: 10px;
+}
+.title-icon{
+  margin-left: 10px;
+  margin-top: 7px;
+}
+.icon{
+  width: 30px;
+}
+.categories img{
+  width: 132px;
+  height: 132px;
+}
+.font-category{
+  font-size: 30px;
+  font-weight: 700;
+}
+.card-title{
+  font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+.price{
+  font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+color: #DB3022;
+}
+.merk{
+  font-weight: 500;
+font-size: 12px;
+line-height: 12px;
+color:#9B9B9B;
+}
+.rating{
+  font-weight: 400;
+font-size: 10px;
+line-height: 8px;
+}
+.button-login, .button-signup{
+  border-radius: 24px;
+  margin: 5px 3px 5px 3px;
+}
+.button-login{
+  background-color: #DB3022;
   color: #fff;
 }
-
-header h1 {
-  font-family: 'Playfair Display', serif;
+.navbar-nav{
+  margin-left: auto;
+}
+.search{
+  border-radius: 40px;
+}
+.filter{
+  margin-left: 5px;
+  border: 1px solid #3f4042;
+}
+.filter:hover{
+  border: 1px solid #393b41;
+  background-color: aliceblue;
+}
+.carousel-inner{
+  border-radius: 8px;
+}
+.start{
+  margin-top: -5px;
+}
+.products{
+  margin-bottom: -15px;
+  margin-top: 15px;
+}
+.title{
+  color: #222222;
   font-weight: bold;
 }
-
-header .btn-get-started {
-  background-color: #FF9E53;
-  color: #fff;
-}
-
-header .btn-get-started:hover {
-  color: #fff;
-}
-
