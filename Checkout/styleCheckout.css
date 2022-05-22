@@ -6,7 +6,7 @@ body {
  @font-face /*perintah untuk memanggil font eksternal*/
 {
     font-family: 'metropolis'; /*memberikan nama bebas untuk font*/
-    src: url('./metropolis.regular.otf');/*memanggil file font eksternalnya di folder nexa*/
+    src: url('../metropolis.regular.otf');/*memanggil file font eksternalnya di folder nexa*/
 }
 
 .btn-login {
@@ -87,8 +87,10 @@ body {
      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .table{border-bottom:none #fff !important;}
-.select-all{
-   height: 70px;
+.btn-address{
+  border-radius: 20px;
+  border: 1px solid #9B9B9B;
+  width: 50%;
 }
 
 .min{
@@ -117,6 +119,12 @@ color: #222222;
    color: #9B9B9B;
    font-weight: 500;
    line-height: 16px;
+}
+.total-shopping{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 20px;
 }
 .footer{
   margin-top: 140px;
@@ -152,5 +160,8 @@ color: #222222;
    }
    .price{
        font-size: 10px;
+   }
+   .btn-address{
+    width: 100%;
    }
       }

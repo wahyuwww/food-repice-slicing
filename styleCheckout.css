@@ -126,6 +126,9 @@ color: #222222;
   line-height: 16px;
   margin-top: 20px;
 }
+.footer{
+  margin-top: 140px;
+}
 @media (max-width: 768px) {
           /* versi table */
    .post{

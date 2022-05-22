@@ -66,10 +66,15 @@ body {
   font-size: 30px;
   font-weight: 700;
 }
-.card-title{
+.card-title, a{
   font-weight: 500;
 font-size: 16px;
 line-height: 24px;
+color: #222222;
+text-decoration: none;
+}
+.card-title, a:hover{
+  color: #222222;
 }
 .price{
   font-weight: 500;
@@ -91,10 +96,13 @@ line-height: 8px;
 .button-login, .button-signup{
   border-radius: 24px;
   margin: 5px 3px 5px 3px;
+  
 }
 .button-login{
   background-color: #DB3022;
   color: #fff;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 .navbar-nav{
   margin-left: auto;
@@ -123,4 +131,7 @@ line-height: 8px;
 .title{
   color: #222222;
   font-weight: bold;
+}
+.footer{
+  margin-top: 140px;
 }

@@ -18,19 +18,23 @@
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse ms-auto" id="navbarCollapse">
-      <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <input class="form-control w-100 search" type="search" placeholder="Search" aria-label="Search">
+    <div class="collapse navbar-collapse ms-auto " id="navbarCollapse">
+      <ul class="navbar-nav mb-2 mb-md-0 w-50 me-auto">
+          <input class="form-control w-100 search text-start" type="search" placeholder="Search" aria-label="Search">
            <li class="nav-item">
             <button class="btn btn-outline-light filter"><img src="./image/filter.png" alt=""></button>
         </li>
       </ul>
-      <form class="ms-2">
-        <img src="./image/search.svg" alt="" class="icon-cart">
+      <form class="ms-2 ">
+        <img src="./image/search.svg" alt="" class="icon-cart me-4">
       </form>
       <form class="d-flex float-right" >
-        <button class="btn button-login" type="submit">login</button>
-        <button type="button" class="btn btn-outline-secondary button-signup">sign up</button>
+        <a href="./LoginRegister/login.html">
+          <button class="btn button-login me-2" type="button"> login</button>
+        </a> 
+        <a href="./LoginRegister/register.html"> 
+          <button type="button" class="btn btn-outline-secondary button-signup me-3"> sign up</button>
+        </a>
         <!-- <button type="button" class="btn btn-outline-light ">sign up</button> -->
       </form>
     </div>
@@ -139,7 +143,7 @@
         <div class="card shadow-sm">
           <img src="./image//product.png" class="img-fluid" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Men's formal suit - Black & White</h5>
+            <h5 class="card-title"><a href="./Detail-Product/DetailProducts.html">Men's formal suit - Black & White </a></h5>
             <p class=" price">$ 40.0</p>
             <p class="card-text merk">Zalora Cloath</p>
             <div class="d-flex justify-content-start text-warning start">
@@ -229,7 +233,7 @@
   </div>
   <div class="row">
     <div class="products">
-    <h3 class="products mt-5 mb-0 title">Populer</h3>
+    <h3 class="products mt-5 mb-2 title">Populer</h3>
      <p style="color: #9B9B9B;">Find clothes that are trending recently</p>
     </div>
     <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5 g-3">
