@@ -138,17 +138,26 @@ line-height: 16px;
   width: 42px;
   height: 42px;
 }
+.icon{
+  margin-left: -2px !important;
+}
 .btn-min{
   background-color: #a4a5a7;
   border-radius: 50%;
   width: 36px;
   height: 36px;
 }
+.btn-min:hover{
+  background-color: #878d99;
+}
 .btn-max{
   background-color: #ffffff;
   border-radius: 50%;
   width: 36px;
   height: 36px;
+}
+.btn-max:hover{
+  background-color: aliceblue;
 }
 .size{
   color: #222222;
