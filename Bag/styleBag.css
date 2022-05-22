@@ -95,13 +95,16 @@ body {
     border-radius: 50%;
      background-color: #D4D4D4;
      border: 0;
+     margin-left: 20px;
+}
+.sum{
+  margin-left: 10px;
 }
 .max{
     border-radius: 50%;
-    margin-left: -100px !important;
-}
-.text-one{
-  margin-left: -80px;
+     width: 40px;
+     height: 40px;
+     margin-left: 20px;
 }
 
 .customcheck {
@@ -174,9 +177,7 @@ body {
   margin-left: -180px;
   margin-top: 10px;
 }
-.max{
-   margin-left: -120px ;
-}
+
 .select-item{
   font-weight: 500;
 font-size: 16px;
@@ -204,46 +205,55 @@ color: #222222;
 }
 @media (max-width: 768px) {
           /* versi table */
-   .post{
-       font-size: 16px;
+   .name,.sub-name{
+      font-size: 13px;
+      margin-left: 15px !important;
+    }
+    /* .total{
+      margin-left: 150px !important;
+    } */
+   .icon-max{
+       position: static;
+       margin: -8px 0 0 -3px;
+   }
+   .icon-min{
+       position: static;
+	    margin: -8px 0 0 -3px;
+   }
+   .price{
+       font-size: 13px;
+       margin-left: 120px;
    }
 }
 @media (max-width: 576px) {
           /* versi mobile */
-     .post{
-       font-size: 10px;
-   }
-   .sub-post, .post{
-       margin-left: -5px;
-   }
-   .sub-post{
-       font-size: 5px;
-       margin-top: -100px !important;
-   }
-   .min,.max{
-       width: 10px;
-       height: 20px;
-       border-radius: 50%;
-       /* background-color: red; */
-   }
-   .max{
-     margin-left: -10px !important;
-   }
-   .min{
-     margin-right: -10px !important;
-   }
-   .text-one{
-  margin-left: 0px;
-}
+   .name,.sub-name{
+      font-size: 13px;
+      margin-left: 15px !important;
+    }
+  .min{
+    width: 30px;
+    height: 30px;
+    margin-left: -30px;
+  }
+  .max{
+     width: 30px;
+    height: 30px;
+     margin-left: -30px;
+  }
+  .sum{
+    margin-left: -20px;
+  }
    .icon-max{
        position: static;
-       margin: -17px 0 0 -6px;
+       margin: -8px 0 0 -3px;
    }
    .icon-min{
        position: static;
-	    margin: -17px 0 0 -7px;
+	    margin: -8px 0 0 -3px;
    }
    .price{
-       font-size: 10px;
+       font-size: 13px;
+       margin-left: -30px;
    }
       }
