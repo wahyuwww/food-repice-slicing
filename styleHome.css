@@ -107,8 +107,13 @@ line-height: 8px;
 .navbar-nav{
   margin-left: auto;
 }
+.search-input{
+   border-radius: 50px;
+   border-right: 0px solid rgb(255, 255, 255);
+}
 .search{
-  border-radius: 40px;
+   border-radius: 50px;
+  background-color: #fff !important;
 }
 .filter{
   margin-left: 5px;
@@ -121,6 +126,18 @@ line-height: 8px;
 .carousel-inner{
   border-radius: 8px;
 }
+/* .btn-next{
+  background-color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: -90px !important;
+}
+.next{
+  width: 20px !important;
+  height: 20px !important;
+  margin-right: 800px;
+} */
 .start{
   margin-top: -5px;
 }

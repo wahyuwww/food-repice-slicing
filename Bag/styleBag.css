@@ -43,8 +43,13 @@ body {
 .navbar-nav{
   margin-left: auto;
 }
+.search-input{
+   border-radius: 50px;
+   border-right: 0px solid rgb(255, 255, 255);
+}
 .search{
-  border-radius: 40px;
+   border-radius: 50px;
+  background-color: #fff !important;
 }
 .filter{
   margin-left: 5px;
@@ -173,6 +178,9 @@ body {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+.input{
+  margin-top: 10px !important;
+}
 .post, .sub-post{
   margin-left: -180px;
   margin-top: 10px;
@@ -208,6 +216,7 @@ color: #222222;
    .name,.sub-name{
       font-size: 13px;
       margin-left: 15px !important;
+      position: relative;
     }
     /* .total{
       margin-left: 150px !important;
@@ -242,7 +251,7 @@ color: #222222;
      margin-left: -30px;
   }
   .sum{
-    margin-left: -20px;
+    margin-left: 300px !important;
   }
    .icon-max{
        position: static;

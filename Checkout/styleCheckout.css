@@ -43,8 +43,13 @@ body {
 .navbar-nav{
   margin-left: auto;
 }
+.search-input{
+   border-radius: 50px;
+   border-right: 0px solid rgb(255, 255, 255);
+}
 .search{
-  border-radius: 40px;
+   border-radius: 50px;
+  background-color: #fff !important;
 }
 .filter{
   margin-left: 5px;
@@ -120,6 +125,9 @@ color: #222222;
    font-weight: 500;
    line-height: 16px;
 }
+.price{
+  font-weight: bold;
+}
 .total-shopping{
   font-weight: 600;
   font-size: 16px;
@@ -189,6 +197,7 @@ line-height: 16px;
    }
    .price{
        font-size: 10px;
+       font-weight: bold;
    }
    .btn-address{
     width: 100%;
