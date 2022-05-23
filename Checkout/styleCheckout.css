@@ -202,4 +202,11 @@ line-height: 16px;
    .btn-address{
     width: 100%;
    }
-      }
+   .address{
+     height: 200px;
+   }
+   .address-content{
+     /* font-size: 10px; */
+     line-height: 20px;
+   }
+}

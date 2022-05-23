@@ -51,6 +51,9 @@ body {
    border-radius: 50px;
   background-color: #fff !important;
 }
+.search{
+  border-radius: 40px;
+}
 .filter{
   margin-left: 5px;
   border: 1px solid #3f4042;
@@ -87,53 +90,28 @@ body {
 .checklist{
     margin-left:20px;
 }
-.img-products{
-    border-radius: 3px;
-     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-}
-.table{border-bottom:none #fff !important;}
-.select-all{
-   height: 70px;
-}
 
-.min{
-    border-radius: 50%;
-     background-color: #D4D4D4;
-     border: 0;
-     margin-left: 20px;
-}
-.sum{
-  margin-left: 10px;
-}
-.max{
-    border-radius: 50%;
-     width: 40px;
-     height: 40px;
-     margin-left: 20px;
-}
-
-.customcheck {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-/* Hide the browser's default checkbox */
 .customcheck input {
-    position: absolute;
+    position: relative;
+    opacity: 0;
+    cursor: pointer;
+}
+.customchek input {
+    position: relative;
     opacity: 0;
     cursor: pointer;
 }
 
-/* Create a custom checkbox */
 .checkmark {
+    position: absolute;
+    top: 10;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+.checkmak {
     position: absolute;
     top: 0;
     left: 0;
@@ -143,30 +121,37 @@ body {
     border-radius: 5px;
 }
 
-/* On mouse-over, add a grey background color */
-.customcheck:hover input ~ .checkmark {
+.customcheck:hover input ~ .checkmark,.checkmak {
     background-color: #ccc;
 }
 
-/* When the checkbox is checked, add a blue background */
-.customcheck input:checked ~ .checkmark {
+.customcheck input:checked ~ .checkmark{
+    background-color: #DB3022;
+    border-radius: 5px;
+}
+.customcheck input:checked ~ .checkmak{
     background-color: #DB3022;
     border-radius: 5px;
 }
 
-/* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
+.checkmak:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
 
-/* Show the checkmark when checked */
 .customcheck input:checked ~ .checkmark:after {
     display: block;
 }
+.customcheck input:checked ~ .checkmak:after {
+    display: block;
+}
 
-/* Style the checkmark/indicator */
 .customcheck .checkmark:after {
     left: 8px;
     top: 5px;
@@ -178,20 +163,46 @@ body {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-.input{
-  margin-top: 10px !important;
-}
-.post, .sub-post{
-  margin-left: -180px;
-  margin-top: 10px;
-}
-
-.select-item{
-  font-weight: 500;
-font-size: 16px;
-line-height: 16px;
+.customcheck .checkmak:after {
+    left: 8px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
+.img-products{
+    border-radius: 3px;
+     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.check{
+  margin-top: -10px !important;
+  position: relative;
+}
+.check-select{
+  margin-top: -3px !important;
+  position: relative;
+}
+.table{border-bottom:none #fff !important;}
+.select-all{
+   height: 70px;
+}
+
+.min{
+    border-radius: 50%;
+     background-color: #D4D4D4;
+     border: 0;
+}
+.max{
+    border-radius: 50%;
+}
+.one{
+    margin-left: -500px !important;
+}
 .btn-checkout{
     background-color: #DB3022;
     border-radius: 40px;
@@ -213,56 +224,34 @@ color: #222222;
 }
 @media (max-width: 768px) {
           /* versi table */
-   .name,.sub-name{
-      font-size: 13px;
-      margin-left: 15px !important;
-      position: relative;
-    }
-    /* .total{
-      margin-left: 150px !important;
-    } */
-   .icon-max{
-       position: static;
-       margin: -8px 0 0 -3px;
-   }
-   .icon-min{
-       position: static;
-	    margin: -8px 0 0 -3px;
-   }
-   .price{
-       font-size: 13px;
-       margin-left: 120px;
+   .post{
+       font-size: 16px;
    }
 }
 @media (max-width: 576px) {
           /* versi mobile */
-   .name,.sub-name{
-      font-size: 13px;
-      margin-left: 15px !important;
-    }
-  .min{
-    width: 30px;
-    height: 30px;
-    margin-left: -30px;
-  }
-  .max{
-     width: 30px;
-    height: 30px;
-     margin-left: -30px;
-  }
-  .sum{
-    margin-left: 300px !important;
-  }
+     .post{
+       font-size: 10px;
+   }
+   .sub-post{
+       font-size: 5px;
+       margin-top: -100px !important;
+   }
+   .min,.max{
+       width: 10px;
+       height: 20px;
+       border-radius: 50%;
+       /* background-color: red; */
+   }
    .icon-max{
        position: static;
-       margin: -8px 0 0 -3px;
+       margin: -17px 0 0 -6px;
    }
    .icon-min{
        position: static;
-	    margin: -8px 0 0 -3px;
+	    margin: -17px 0 0 -7px;
    }
    .price{
-       font-size: 13px;
-       margin-left: -30px;
+       font-size: 10px;
    }
       }
