@@ -16,45 +16,48 @@
 <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script> -->
   </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-md navbar-light fixed-top">
-  <div class="container">
-      <img src="../image/belanja.svg" alt="" class="">
-     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse ms-auto" id="navbarCollapse">
-      <ul class="navbar-nav mb-2 w-50 me-auto ">
-        <div class="input-group rounded">
-            <input type="search" class="form-control search-input" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-            <span class="input-group-text search bg-light" id="search-addon">
-              <i class="bi bi-search"></i>
-            </span>
+<header>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+    <div class="container">
+      <a href="../Home.html">
+        <img src="../image/belanja.svg" alt="" class="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ms-auto" id="navbarCollapse">
+        <ul class="navbar-nav mb-2 w-50 me-auto ">
+            <div class="input-group rounded nav-search">
+                <input type="search" class="form-control search-input" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                <span class="input-group-text search bg-light" id="search-addon">
+                  <i class="bi bi-search"></i>
+                </span>
+            </div>
+              <!-- <input  class="form-control w-100 search text-start search-nav" type="search" placeholder="Search" aria-label="Search"> -->
+              <button type="button" class="btn filter"><img src="../image/filter.png" alt=""></button>
+        </ul>
+          <form class="ms-4">
+            <a href="">
+              <img src="../image/search.svg" alt="" class="icon-cart mb-2">
+            </a>
+            <a href="">
+              <img src="../image/bell (1) 1.png" alt="" class="icon-cart ms-3 mb-2">
+            </a>
+            <a href="">
+              <img src="../image/mail (3) 1.png" alt="" class="icon-cart ms-3 mb-2">
+            </a>
+          </form>
+          <form class="d-flex float-right me-5 ms-5" >
+              <img src="../image//profil.png" alt="" class="rounded-circle">
+          </form>
         </div>
-          <!-- <input  class="form-control w-100 search text-start search-nav" type="search" placeholder="Search" aria-label="Search"> -->
-          <button class="btn filter"><img src="../image/filter.png" alt=""></button>
-      </ul>
-      <form class="ms-4">
-        <a href="">
-          <img src="../image/search.svg" alt="" class="icon-cart mb-2">
-        </a>
-        <a href="">
-          <img src="../image/bell (1) 1.png" alt="" class="icon-cart ms-3 mb-2">
-        </a>
-        <a href="">
-          <img src="../image/mail (3) 1.png" alt="" class="icon-cart ms-3 mb-2">
-        </a>
-      </form>
-      <form class="d-flex float-right me-5 ms-5" >
-          <img src="../image//profil.png" alt="" class="rounded-circle">
-      </form>
     </div>
-  </div>
-</nav>
-  </header>
+  </nav>
+</header>
 
-<main class="">
-  <div class="container my-bag">
+<main >
+  <section>
+    <div class="container my-bag">
       <div class="row">
           <div class="col-lg-3 mt-2 select-profil">
             <div class="profil-avatar">
@@ -119,13 +122,13 @@
           <div class="col-lg-9 profil-form">
             <div class="card mt-3">
               <div class="card-body">
-                  <h3 class="title-selling">Inventory</h3>
-                  <hr>
+                  <h3 class="title-selling mt-2">Inventory</h3>
+                   <div class="line"></div>
                   <div class="row mt-3 ms-1">
                     <div class="col-sm-8">
                       <div class="mb-3 row">
-                        <label for="Name" class="col-sm-4 col-form-label">Name of goods</label>
-                        <input type="text" class="form-control form-control-lg ms-2 mt-2 ">
+                        <label for="Name" class="col-sm-4 col-form-label text-secondary">Name of goods</label>
+                        <input type="text" class="form-control form-control-lg ms-2 mt-2 name-input">
                       </div>
                     </div>
                 </div>
@@ -133,19 +136,19 @@
             </div>
             <div class="card mt-3">
               <div class="card-body">
-                  <h3 class="title-selling">Item details</h3>
-                  <hr>
+                  <h3 class="title-selling mt-2">Item details</h3>
+                  <div class="line"></div>
                   <div class="row mt-3 ms-1">
                     <div class="col-sm-8">
                       <div class="mb-3 row">
                         <label for="Name" class="col-sm-4 col-form-label text-secondary">Unit price</label>
-                        <input type="text" class="form-control form-control-lg ms-2 mt-2 ">
+                        <input type="text" class="form-control form-control-lg ms-2 mt-2 name-input">
                       </div>
                     </div>
                     <div class="col-sm-8">
                       <div class="mb-3 row">
                         <label for="Name" class="col-sm-4 col-form-label text-secondary">Stock</label>
-                        <input type="text" class="form-control form-control-lg ms-2 mt-2 ">
+                        <input type="text" class="form-control form-control-lg ms-2 mt-2 name-input">
                       </div>
                     </div>
                     <div class="col-sm-8 mt-3 mb-4">
@@ -160,18 +163,18 @@
                               Bekas
                             </label>
                       </div>
-                        </div>
+                    </div>
                 </div>
               </div>
             </div>
             <div class="card mt-3">
               <div class="card-body">
-                  <h3 class="title-selling">Photo of goods</h3>
-                  <hr>
+                  <h3 class="title-selling mt-2">Photo of goods</h3>
+                   <div class="line"></div>
                   <div class="row mt-3 ms-2 me-2 photo-form">
                     <div class="col-sm-3 ms-2 mt-3">
-                      <div class="card text-center d-flex flex-colum" style="background:url('image/seling-product/Rectangle\ 629.png')">
-                        <img src="../image/seling-product/Rectangle 629.png" alt="Bootstrap" class="img-fluid">
+                      <div class="card card-image">
+                        <img src="../image/seling-product/Rectangle 629.png" alt="Bootstrap" class="img-fluid ">
                             <div class="card-img-overlay text-white d-flex justify-content-center align-items-center">
                               <img src="../image/seling-product/box 5.png" alt="">
                             </div>
@@ -179,7 +182,7 @@
                         <p class="text-center mt-2 text-secondary">Foto utama</p>
                     </div>
                     <div class="col-sm-2 mt-5 upload">
-                      <div class="card text-center d-flex flex-colum" style="background:url('image/seling-product/Rectangle\ 629.png')">
+                      <div class="card" >
                         <img src="../image/seling-product/Rectangle 629.png" alt="Bootstrap" class="img-fluid">
                             <div class="card-img-overlay text-white d-flex justify-content-center align-items-center">
                               <img src="../image/seling-product/box 5.png" alt="">
@@ -187,7 +190,7 @@
                       </div>
                     </div>
                     <div class="col-sm-2 mt-5 upload">
-                      <div class="card text-center d-flex flex-colum" style="background:url('image/seling-product/Rectangle\ 629.png')">
+                      <div class="card ">
                         <img src="../image/seling-product/Rectangle 629.png" alt="Bootstrap" class="img-fluid">
                             <div class="card-img-overlay text-white d-flex justify-content-center align-items-center">
                               <img src="../image/seling-product/box 5.png" alt="">
@@ -195,7 +198,7 @@
                       </div>
                     </div>
                     <div class="col-sm-2 mt-5 upload">
-                      <div class="card text-center d-flex flex-colum" style="background:url('image/seling-product/Rectangle\ 629.png')">
+                      <div class="card ">
                         <img src="../image/seling-product/Rectangle 629.png" alt="Bootstrap" class="img-fluid">
                             <div class="card-img-overlay text-white d-flex justify-content-center align-items-center">
                               <img src="../image/seling-product/box 5.png" alt="">
@@ -203,7 +206,7 @@
                       </div>
                     </div>
                     <div class="col-sm-2 mt-5 upload">
-                      <div class="card text-center d-flex flex-colum" style="background:url('image/seling-product/Rectangle\ 629.png')">
+                      <div class="card ">
                         <img src="../image/seling-product/Rectangle 629.png" alt="Bootstrap" class="img-fluid">
                             <div class="card-img-overlay text-white d-flex justify-content-center align-items-center">
                               <img src="../image/seling-product/box 5.png" alt="">
@@ -221,9 +224,9 @@
             </div>
             <div class="card mt-3">
               <div class="card-body">
-                  <h3 class="title-selling">Description</h3>
-                  <hr>
-                  <div class="col-lg-12 mb-1">
+                  <h3 class="title-selling mt-2">Description</h3>
+                   <div class="line"></div>
+                  <div class="col-lg-12 mb-1 mt-4">
                     <div class="card">
                     <div class="card-body description">
                       <img src="../image//seling-product/summernote.png" alt="">
@@ -244,6 +247,7 @@
           </div>
         </div>
       </div>
+  </section>
 </main>
 <footer class="py-2 bg-dark footer">
         <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>

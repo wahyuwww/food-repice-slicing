@@ -104,19 +104,19 @@ body {
 }
 .btn-mail{
     background-color: #F3456F;
-    border:  0px;
+    border: 1px solid #F3456F;
 }
 .btn-acount:hover{
     background-color: #d66b4a;
-    border:  0px;
+    border: 1px solid #d66b4a;
 }
 .btn-location:hover{
     background-color: #4663ca;
-    border:  0px;
+    border:  1px solid #4663ca;
 }
 .btn-mail:hover{
     background-color: #ec7591;
-    border:  0px;
+    border:  1px solid #F3456F;
 }
 .caption-select{
     font-weight: 800;
@@ -147,13 +147,14 @@ color: #9B9B9B;;
  border: 0;
 }
 .image-profil{
-   border-right: #D4D4D4;
-   border-color: #D4D4D4;
-    border-style: solid;
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 1px;
-    border-right-width: 0px;
+  height: 200px !important;
+  border-right: #D4D4D4;
+  border-color: #D4D4D4;
+  border-style: solid;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 1px;
+  border-right-width: 0px;
 }
 .btn-select-profil{
    border: 1px solid #9B9B9B;
@@ -169,25 +170,43 @@ line-height: 20px;
   margin-top: 140px;
 }
 @media (max-width: 576px) {
-.text-form{
-      text-align: justify !important;
+    .nav-search{
+    /* background-color: red; */
+    margin: 20px 0px 3px -80px;
+    width: 300px;
+  }
+  .filter{
+    /* background-color: blue; */
+    margin-left: -70px !important;
+  }
+  .filter img{
+    margin-left: -5px;
+  }
+  .text-form{
+        text-align: justify !important;
+  }
+  .btn-submit{
+      border-radius: 16px;
+      background-color: #DB3022;
+      width: 80px;
+      color: #fff;
+      margin-left: 10px;
+  }
+  .search-nav{
+    /* width: 100% !important; */
+    margin-left: -80px;
+    margin-top: 10px;
+    /* background-color: red; */
+  }
+  .filter{
+      float: right;
+      margin: 5px;
+      width: 25%;
+      margin-left: -70px !important;
+  }
+  .select-profil{
+      height: 430px;
+      margin-top: -120px !important;
+      /* margin-left: -100px !important; */
+  }
 }
-.btn-submit{
-    border-radius: 16px;
-    background-color: #DB3022;
-    width: 80px;
-    color: #fff;
-    margin-left: 10px;
-}
-.search-nav{
-  /* width: 100% !important; */
-  margin-left: -80px;
-  margin-top: 10px;
-  /* background-color: red; */
-}
-.filter{
-   float: right;
-    margin: 5px;
-    width: 25%;
-}
-      }

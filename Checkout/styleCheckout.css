@@ -174,7 +174,19 @@ line-height: 16px;
 }
 @media (max-width: 576px) {
           /* versi mobile */
-     .post{
+    .nav-search{
+    /* background-color: red; */
+    margin: 20px 0px 3px -80px;
+    width: 300px;
+  }
+  .filter{
+    /* background-color: blue; */
+    margin-left: -70px !important;
+  }
+  .filter img{
+    margin-left: -5px;
+  }
+    .post{
        font-size: 10px;
    }
    .sub-post{

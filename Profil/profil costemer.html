@@ -12,40 +12,43 @@
     <script src="../bootstrap/js/bootstrap.min.js"></script>
   </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-md navbar-light fixed-top">
-  <div class="container">
-      <img src="../image/belanja.svg" alt="" class="">
-     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse ms-auto" id="navbarCollapse">
-      <ul class="navbar-nav mb-2 w-50 me-auto ">
-        <div class="input-group rounded">
-            <input type="search" class="form-control search-input" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-            <span class="input-group-text search bg-light" id="search-addon">
-              <i class="bi bi-search"></i>
-            </span>
-        </div>
-          <button class="btn filter"><img src="../image/filter.png" alt=""></button>
-      </ul>
-      <form class="ms-4">
-        <img src="../image/search.svg" alt="" class="icon-cart mb-2">
-        <img src="../image/bell (1) 1.png" alt="" class="icon-cart ms-3 mb-2">
-         <img src="../image/mail (3) 1.png" alt="" class="icon-cart ms-3 mb-2">
-      </form>
-      <form class="d-flex float-right me-5 ms-5" >
-        <a href="../Selling/selling-products.html">
-          <img src="../image//profil.png" alt="" class="rounded-circle">
-        </a>
-      </form>
+<header>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+    <div class="container">
+         <a href="../Home.html">
+            <img src="../image/belanja.svg" alt="" class="">
+         </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ms-auto" id="navbarCollapse">
+        <ul class="navbar-nav mb-2 w-50 me-auto ">
+          <div class="input-group rounded nav-search">
+              <input type="search" class="form-control search-input" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+              <span class="input-group-text search bg-light" id="search-addon">
+                <i class="bi bi-search"></i>
+              </span>
+          </div>
+            <button class="btn filter"><img src="../image/filter.png" alt=""></button>
+        </ul>
+        <form class="ms-4">
+          <img src="../image/search.svg" alt="" class="icon-cart mb-2">
+          <img src="../image/bell (1) 1.png" alt="" class="icon-cart ms-3 mb-2">
+          <img src="../image/mail (3) 1.png" alt="" class="icon-cart ms-3 mb-2">
+        </form>
+        <form class="d-flex float-right me-5 ms-5" >
+          <a href="../Selling/selling-products.html">
+            <img src="../image//profil.png" alt="" class="rounded-circle">
+          </a>
+        </form>
+      </div>
     </div>
-  </div>
-</nav>
-  </header>
+  </nav>
+</header>
 
-<main class="">
-  <div class="container my-bag">
+<main >
+  <section>
+      <div class="container my-bag">
         <div class="row">
           <div class="col-lg-3 mt-2 select-profil">
             <div class="profil-avatar">
@@ -64,7 +67,7 @@
             <div class="profil-select mt-5">
               <table>
                 <td>
-                  <button class="btn btn-acount">
+                  <button type="button" class="btn btn-acount">
                   <img src="../image/user-profil.png" alt="">
                   </button>
                 </td>
@@ -74,7 +77,7 @@
               </table>
               <table>
                 <td>
-                  <button class="btn btn-location">
+                  <button type="button" class="btn btn-location">
                   <img src="../image/map-pin (3) 1.png" alt="">
                   </button>
                 </td>
@@ -84,7 +87,7 @@
               </table>
               <table>
                 <td>
-                  <button class="btn btn-mail">
+                  <button type="button" class="btn btn-mail">
                   <img src="../image/clipboard 1 (1).png" width="18px" alt="">
                   </button>
                 </td>
@@ -143,7 +146,7 @@
                               <option value="3">3</option>
                             </select>
                         </div>
-                        <div class="col-sm-2">
+                        <div class="col-sm-3">
                           <select class="form-select" aria-label="Default select example">
                               <option selected>Januari</option>
                               <option value="1">Febuari</option>
@@ -151,7 +154,7 @@
                               <option value="3">April</option>
                             </select>
                         </div>
-                        <div class="col-sm-2">
+                        <div class="col-sm-3">
                           <select class="form-select" aria-label="Default select example">
                               <option selected>1990</option>
                               <option value="1">1991</option>
@@ -176,12 +179,13 @@
                         </button>
                         </div>
                       </div>
-                </div>
+                  </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+    </div>
+  </section>
 </main>
 <footer class="py-2 bg-dark footer">
         <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
