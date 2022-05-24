@@ -66,7 +66,8 @@ body {
 }
 .filter{
   margin-left: 5px;
-  border: 1px solid #3f4042;
+  border: 0.2px solid #9d9e9e;
+  border-radius: 12px !important;
 }
 .filter:hover{
   border: 1px solid #393b41;
@@ -94,6 +95,10 @@ line-height: 28px;
   font-weight: 500;
 font-size: 16px;
 line-height: 16px;
+}
+.thumb a img{
+  width: 70px;
+  height: 70px;
 }
 .start{
   margin-top: -8px;
@@ -142,6 +147,25 @@ line-height: 16px;
    border-radius: 50%;
   width: 42px;
   height: 42px;
+}
+.btn-black:hover{
+  background-color: #2e2e2e;
+  margin: auto;
+}
+.btn-red:hover{
+  background-color: #d62d2d;
+  border: 0;
+}
+.btn-blue:hover{
+  background-color: #2c75b9;
+  border: 0;
+}
+.btn-green:hover{
+  background-color: #44f877;
+  border: 0;
+}
+.btn-border:hover{
+  border: 1px solid #f0493a;
 }
 .icon{
   margin-left: -2px !important;
@@ -256,5 +280,10 @@ line-height: 24px;
   }
   .filter img{
     margin-left: -5px;
+  }
+  .thumb a img{
+    justify-content: center;
+    /* margin-top: 5px; */
+    margin: 5px auto
   }
 }
