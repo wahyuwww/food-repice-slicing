@@ -25,11 +25,11 @@
 </p>
 
 # Belanja
-Belanja is a web-based marketplace application (clothing products). This application allows users to sell their products as well as buy existing products. This Shopping Slicing application was built using a css framework, namely bootstrap
+Belanja is a web-based marketplace application (clothing products). This application allows users to sell their products as well as buy existing products. This Belanja Slicing application was built using a css framework, namely bootstrap
 
 
 ## Prerequiste
-* Bootstrap V.5 - Download and Install [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Simple bash script to manage multiple active framwork css versions.
+* Bootstrap V.5 - Download [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Simple to manage multiple active framwork css versions.
 
 ## Page
 * Login & register 
