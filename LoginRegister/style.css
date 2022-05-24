@@ -56,6 +56,9 @@ body {
       border: 1px solid #9B9B9B;
       border-radius: 0 5px 5px 0;
 }
+::-webkit-input-placeholder { 
+  font-size: 100px;
+}
 .header{
     padding: 0 15px 15px 15px;
 }

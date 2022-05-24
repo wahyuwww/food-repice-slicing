@@ -96,10 +96,30 @@ line-height: 28px;
 font-size: 16px;
 line-height: 16px;
 }
+
+/* flex box */
 .thumb a img{
   width: 70px;
   height: 70px;
+  display: inline;
 }
+
+
+/* grid */
+.cover{
+  display: flex;
+  flex-wrap: wrap;
+}
+.galleriess{
+  display: grid;
+  width: 210px;
+  grid-template-columns: auto auto auto;
+  /* background-color: #2196F3; */
+  padding: 5px;
+  margin-left: 5px;
+}
+
+
 .start{
   margin-top: -8px;
 }
