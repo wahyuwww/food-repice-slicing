@@ -31,6 +31,14 @@ Belanja is a web-based marketplace application (clothing products). This applica
 ## Prerequiste
 * Bootstrap V.5 - Download and Install [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Simple bash script to manage multiple active framwork css versions.
 
+## Page
+* Login & register 
+* Home 
+* My Bag 
+* Page Product / Product Detail
+* Checkout
+* Profile 
+* Page-selling product
 
 ## Installation
 ### Clone
