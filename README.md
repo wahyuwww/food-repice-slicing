@@ -51,7 +51,7 @@ Go live server
 <div align="center">
     <img width="400" src="./image/login.png"> 
     <img width="400" src="./image/home.png">
-     <img width="400" src="./image/bag.png">
+     <img width="400" src="./image/MyBag.png">
     <img width="400" src="./image/checkout.png">
 </div>
 
