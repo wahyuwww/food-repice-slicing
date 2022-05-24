@@ -45,6 +45,5 @@ Go live server
 ```
 
 ## Link Netlify
-```
 [Belanja](https://master--zingy-seahorse-3eb135.netlify.app/home)
-```
+
