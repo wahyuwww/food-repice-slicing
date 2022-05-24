@@ -68,7 +68,8 @@ a{
      border-radius: 5px;
 }
 .my-bag{
-    margin-top: 100px;
+    margin-top: 60px;
+    overflow-x: hidden;
 }
 .edit-profil{
     font-weight: 500;
@@ -82,9 +83,16 @@ a{
 }
 .select-profil{
     background-color: #fff;
-    height: 1640px;
-    margin-top: -50px !important;
+    height: 1840px;
+    margin-top: -10px !important;
     /* margin-left: -100px !important; */
+}
+.profil-avatar,.profil-select{
+  margin-left: 120px;
+}
+.profil-form{
+  margin-top: 40px;
+  margin-left: 20px;
 }
 .image,.image-text{
   margin-top: 70px;
@@ -156,7 +164,7 @@ margin-top: 5x;
 .line{
   border-top: 2px solid #dfdfdf;
   margin-left: -15px;
-  width: 830px;
+  width: 776px;
   margin-top: 20px;
 }
 .description{
@@ -173,9 +181,9 @@ margin-top: 5x;
   background-color: #d11605;
   color: #fff;
 }
-.footer{
+/* .footer{
   margin-top: 80px;
-}
+} */
 @media (max-width: 576px) {
   .nav-search{
     /* background-color: red; */
@@ -208,6 +216,10 @@ margin-top: 5x;
       /* background-color: blue; */
     margin-left: -70px !important;
   }
+  .profil-avatar, .profil-select{
+    margin-left: 10px !important;
+    margin-top: 40px;
+  }
   .photo-form{
       border: 1px dotted #D4D4D4;
       border-radius: 4px;
@@ -217,16 +229,19 @@ margin-top: 5x;
       margin-top: 22px !important;
   }
   .select-profil{
-      height: 335px;
+      height: 390px;
       margin-top: -30px !important;
   }
   .image,.image-text{
     margin-top: 5px;
   }
+  .profil-form{
+    margin-left: 2px;
+  }
   .line{
     /* border-top: 2px solid #dfdfdf; */
     margin-left: -15px;
-    width: 300px;
+    width: 350px;
     /* margin-top: 25px; */
   }
   .name-input{
@@ -236,5 +251,11 @@ margin-top: 5x;
     border: 1px solid #fff;
     width: 230px;
     margin-left: -10px !important;
-  }   
+  }
+  .btn-jual{
+    margin-right: 20px;
+  }
+  .footer{
+    margin-top: 20px;
+  }  
 }
