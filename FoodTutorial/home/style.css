@@ -1,0 +1,304 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: #222222;
+  overflow-x: hidden;
+}
+ @font-face /*perintah untuk memanggil font eksternal*/
+{
+    font-family: 'airbnb'; /*memberikan nama bebas untuk font*/
+    src: url('../airbnb-cereal-font/AirbnbCereal_W_Bd.otf');/*memanggil file font eksternalnya di folder nexa*/
+}
+ @font-face /*perintah untuk memanggil font eksternal*/
+{
+    font-family: 'airbnb_bk'; /*memberikan nama bebas untuk font*/
+    src: url('../airbnb-cereal-font/AirbnbCereal_W_Bk.otf');/*memanggil file font eksternalnya di folder nexa*/
+}
+ @font-face /*perintah untuk memanggil font eksternal*/
+{
+    font-family: 'airbnb_blk'; /*memberikan nama bebas untuk font*/
+    src: url('../airbnb-cereal-font/AirbnbCereal_W_Blk.otf');/*memanggil file font eksternalnya di folder nexa*/
+}
+ @font-face /*perintah untuk memanggil font eksternal*/
+{
+    font-family: 'airbnb_lt'; /*memberikan nama bebas untuk font*/
+    src: url('../airbnb-cereal-font/AirbnbCereal_W_Lt.otf');/*memanggil file font eksternalnya di folder nexa*/
+}
+ @font-face /*perintah untuk memanggil font eksternal*/
+{
+    font-family: 'airbnb_md'; /*memberikan nama bebas untuk font*/
+    src: url('../airbnb-cereal-font/AirbnbCereal_W_Md.otf');/*memanggil file font eksternalnya di folder nexa*/
+}
+.nav-link{
+    color: blue;
+    font-family: airbnb_md;
+}
+.image-cover{
+    object-fit: none;
+    width: 700px;
+    height: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+     object-fit: none;
+     border-radius: 10px;
+     margin-top: 10px;
+}
+.content{
+    width: 100%;
+}
+.logo{
+    float: right;    
+    margin-top: 440px;
+}
+.tangan{
+    border-radius: 15px;
+    border: 1px solid #EFC81A;
+    background-color: #F6F5F4;
+}
+.simpan{
+     border-radius: 15px;
+    border: 1px solid #F6F5F4;
+    background-color: #EFC81A;
+}
+.caption-logo{
+position: absolute;
+bottom: 0px;
+right: 330px;
+}
+.play{
+    width: 150px;
+    margin-top:5px;
+}
+.coment{
+    height: 200px !important;
+    background-color: #F6F5F4;
+}
+.send{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 150px;
+    color: aliceblue;
+}
+.product{
+    margin-top: 50px;
+     text-align: center;
+}
+.product a{
+    display:inline-block;
+    text-decoration: none !important;
+    margin:0 auto;
+}
+
+/* detail */
+.image-step img{
+ position: absolute;
+    margin-left: 0;
+  z-index: -1;
+}
+.caption{
+    margin-top: 130px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: airbnb_md;
+}
+.sub-caption{
+    margin-top: -10px;
+    font-size: 10px;
+     font-family: airbnb_lt;
+}
+
+
+/* add receipe */
+
+.bg-upload{
+    background-color: #F6F5F4;
+    color: #666666;
+    font-family: airbnb_lt;
+    margin-top: 50px;
+    border: none;
+    height: 300px;
+}
+.bg-upload label{
+    font-size: 24px;
+    font-family: airbnb_md;
+    margin-top: 20px;
+    cursor: pointer;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#upload-photo {
+   opacity: 0;
+   position: absolute;
+   z-index: -1;
+}
+.title{
+     background-color: #F6F5F4;
+    color: #666666;
+    border: none;
+    height: 80px;
+    margin-top: 30px;
+    font-family: airbnb;
+}
+.ingredients{
+     background-color: #F6F5F4;
+    color: #666666;
+    border: none;
+    height: 200px;
+    margin-top: 30px;
+    font-family: airbnb;
+}
+.video{
+    background-color: #F6F5F4;
+    height: 50px;
+    margin-top: 30px;
+}
+.btn-add{
+    background-color: #EFC81A;
+    color: #F6F5F4;
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* profil */
+.profil-img{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-profil{
+    font-family: airbnb_md;
+    margin-top: 10px;
+}
+.choase, .choase a{
+    border: none;
+     color: #222222;
+     text-decoration: none;
+      font-family: airbnb_md;
+}
+.caption-image{
+    position: absolute;
+    bottom: 0px;
+    font-family: airbnb_md;
+    font-weight: 500;
+    color: #F6F5F4;
+    font-size: 28px;
+}
+
+
+/* lading page */
+.title-page , h3, input{
+    margin-left: 120px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    color: #2E266F;
+    font-family: airbnb;
+    height: 50px;
+    font-size: 52px;
+}
+.title-page input{
+    margin-top: 70px;
+    background-color: #EFEFEF;
+}
+.latar{
+    background-color: #EFC81A;
+    height: 800px;
+    width: 500px;
+     margin-right: -120px !important;
+}
+.image-page{
+    position: absolute;
+    bottom: 10px;
+    left: 690px;
+}
+.popular{
+   border-left: 10px solid #EFC81A;
+    margin-left: 120px;
+    font-size: 48px;
+    font-family: airbnb_md;
+    font-weight: 500;
+    margin-top: -30px;
+}
+.garis-two{
+    height: 400px;
+    width: 400px;
+    right: 800px;
+    top: 990px;
+    border: 3px solid #EFC81A;
+    position: absolute;
+    z-index: -10;
+    border-radius: 5px;
+    
+}
+.sub-title{
+    font-size: 16px;
+    color: #666666;
+    font-family: airbnb_bk;
+}
+.image-two{
+    margin-left: 120px;
+    margin-top: 80px;
+}
+.slide{
+    color: #222222;
+
+}
+.btn-more{
+    background-color: #EFC81A;
+    color: #EFEFEF;
+    font-family: airbnb_lt;
+    font-size: 16px;
+    width: 150px;
+}
+.popular-two{
+    margin-top: 70px;
+     border-left: 10px solid #EFC81A;
+    margin-left: 120px;
+    font-size: 48px;
+    font-family: airbnb_md;
+    font-weight: 500;
+}
+.image-card{
+    position: relative;
+}
+.caption-card{
+    color: #666666;
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.categories{
+    border: none;
+}
+.icon-login{
+    border-radius: 50%;
+    background-color: #fff;
+}
+@media (max-width:576px) {
+  body{
+    overflow-y: scroll;
+  }
+.image-cover{
+    object-fit: none;
+    width: 330px;
+    height: 300px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+.caption-logo{
+position: absolute;
+bottom: 230px;
+right: 40px;
+}
+/* detail */
+video{
+    width: 330px;
+}
+}

@@ -1,0 +1,187 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: #222222;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+ @font-face /*perintah untuk memanggil font eksternal*/
+{
+    font-family: 'airbnb'; /*memberikan nama bebas untuk font*/
+    src: url('../airbnb-cereal-font/AirbnbCereal_W_Bd.otf');/*memanggil file font eksternalnya di folder nexa*/
+}
+ @font-face /*perintah untuk memanggil font eksternal*/
+{
+    font-family: 'airbnb_bk'; /*memberikan nama bebas untuk font*/
+    src: url('../airbnb-cereal-font/AirbnbCereal_W_Bk.otf');/*memanggil file font eksternalnya di folder nexa*/
+}
+ @font-face /*perintah untuk memanggil font eksternal*/
+{
+    font-family: 'airbnb_blk'; /*memberikan nama bebas untuk font*/
+    src: url('../airbnb-cereal-font/AirbnbCereal_W_Blk.otf');/*memanggil file font eksternalnya di folder nexa*/
+}
+ @font-face /*perintah untuk memanggil font eksternal*/
+{
+    font-family: 'airbnb_lt'; /*memberikan nama bebas untuk font*/
+    src: url('../airbnb-cereal-font/AirbnbCereal_W_Lt.otf');/*memanggil file font eksternalnya di folder nexa*/
+}
+ @font-face /*perintah untuk memanggil font eksternal*/
+{
+    font-family: 'airbnb_md'; /*memberikan nama bebas untuk font*/
+    src: url('../airbnb-cereal-font/AirbnbCereal_W_Md.otf');/*memanggil file font eksternalnya di folder nexa*/
+}
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-size: cover;
+  background-image: url('../assets/image\ 15.png');
+  background-position: center center;
+  overflow-y: hidden;
+  
+}
+.logo{
+    /* width: 20px; */
+   width: 100px;
+   margin: 270px; 
+   height: 125px;
+   flood-opacity: 0%;
+}
+.bg-color{
+    position: relative;
+    width: 200vh;
+    height: 100vh;
+    z-index: 1000;
+    background-color: #EFC81A;
+    opacity: 0.7;
+    margin-left: -12px ;
+    margin-right: -12px;
+}
+.welcome{
+    color: #EFC81A;
+     font-family: 'airbnb_bk';
+     font-weight: 700;
+}
+.sub-title{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8692A6;
+}
+.title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.codisional{
+    font-weight: 400;
+    font-size: 16px;
+    color: #696F79;
+}
+.btn-sign{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 13px;
+    height: 45px;
+    background-color: #EFC81A;
+}
+.forgot{
+    font-weight: 400;
+    font-size: 14px;
+    color: #696F79;
+}
+.page-register{
+    color: #EFC81A;
+    text-decoration: none;
+}
+.register{
+     color: #696F79;
+    text-align: center;
+    margin-left: 70px;
+}
+
+
+input.checkbox {
+    appearance: none;
+    position: relative;
+    background-color: #f8f4f4;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-regis{
+    margin-top: -30px !important;
+}
+.form-register{
+    margin-top: -15px !important;
+}
+.login-page{
+    margin-top: 10px ;
+     color: #696F79;
+    text-align: center;
+    margin-left: 70px;
+}
+input[type="checkbox"]::after {
+    font-family: "Font Awesome 5 Free";
+    display: none;
+}
+
+input[type="checkbox"]:hover {
+    background-color: #a5a5a5;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #EFC81A;
+}
+
+input[type="checkbox"]:checked::after {
+    display: block;
+}
+.start{
+   color: #EFC81A;
+     font-family: 'airbnb_bk';
+     font-weight: 700;
+     font-size: 30px;
+}
+.title-regis{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.codisional-regis{
+    margin-top: -5px !important;
+     font-weight: 400;
+    font-size: 15px;
+    color: #696F79;
+}
+.btn-signup{
+     font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 13px;
+    height: 45px;
+    background-color: #EFC81A;
+    margin-top: -10px !important;
+
+}
+@media(max-width:1080px){
+.logo{
+    /* width: 20px; */
+   width: 100px;
+   margin: 480px  160px; 
+   height: 125px;
+   flood-opacity: 0%;
+}
+}
+@media (max-width:576px) {
+  body{
+    overflow-y: scroll;
+  }
+  .register{
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+}
